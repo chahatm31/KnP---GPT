@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.input-group {
+  margin: 0 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.reset-btn:hover {
+  background-color: #0056b3;
+}
